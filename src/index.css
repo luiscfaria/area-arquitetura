@@ -1,0 +1,19 @@
+body {
+  margin: 0 auto;
+  max-width: 1200px;
+  background-color: var(--primary-light-color);
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root {
+  --primary-dark-color: #C4A394;
+  --primary-light-color: #FFFFFF;
+  --secondary-color: #B9BFBD;
+  --tertiary-color: #39362F;
+  --quaternary-color: #584A2F;
+}
