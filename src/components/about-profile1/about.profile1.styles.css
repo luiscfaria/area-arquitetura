@@ -1,0 +1,40 @@
+.about-profile1 {    
+    margin: 30px 10px;
+    max-width: 30%;
+    max-height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;   
+}
+
+.profile1-img {
+    aspect-ratio: 3 / 4;
+    width: 100%;
+    object-fit: cover;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);    
+}
+
+.text1 {
+    width: 93%;
+    height: 100%;
+    margin-top: 20px;
+    padding: 15px;
+    font-family:'Josefin sans';
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary-dark-color);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.title1 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: var(--primary-light-color);
+}
+
+.paragraph1 {
+    margin: 20px 0;
+    font-weight: 300;
+    text-align: justify;
+}
+

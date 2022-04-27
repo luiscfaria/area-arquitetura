@@ -1,0 +1,35 @@
+.about-office {
+    max-width: 1200px;
+    height: 480px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+.office-img {
+    width: 60%;
+    object-fit: contain;
+}
+
+.text {
+    width: 40%;
+    height: 100%;
+    padding: 0 30px;
+    font-family:'Josefin sans';
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    margin: 10px 0;
+    color: var(--quaternary-color);
+}
+
+.paragraph {
+    margin: 0;
+    font-weight: 300;
+    text-align: justify;
+}
+
