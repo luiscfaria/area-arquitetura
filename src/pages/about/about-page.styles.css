@@ -2,4 +2,32 @@
     margin: 20px 0;
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.featured {
+    font-size: 1.5rem;
+    font-family:'Josefin sans';
+    text-align: justify;
+    color: var(--primary-light-color);
+    margin: 30px 10px;
+    padding: 1.5rem;
+    max-width: 35%;
+    max-height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: var(--primary-dark-color);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.featured-title {
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.featured-text {
+    font-size: 1.1rem;
+    color: var(--tertiary-color);
+    font-weight: 300;
 }
