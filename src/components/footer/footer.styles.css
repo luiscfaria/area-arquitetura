@@ -1,10 +1,8 @@
-.footer {
-    margin: 0;
+.footer {    
+    margin: 0 auto;
     padding: 0;    
     height: 100px;
     display: flex;
-    /* justify-content: center;
-    align-items: center; */
     font-family: 'Josefin sans';
     color: var(--quaternary-color);
 }
