@@ -14,7 +14,7 @@ class Header extends Component {
 
                 <div className="container">
                         <div className="logo">                            
-                            <img className='logo-img' src={require('./AREA-6.png')} />
+                            <img className='logo-img' src={require('./AREA-6.png')} alt="logo"/>
                         </div>
 
                         <div className="header-menu">

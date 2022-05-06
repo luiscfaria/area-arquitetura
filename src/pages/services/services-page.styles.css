@@ -1,0 +1,11 @@
+.service-page-title {    
+    font-size: 2rem;
+    font-family:'Josefin sans';
+    color: var(--primary-dark-color);
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

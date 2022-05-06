@@ -44,7 +44,8 @@ class Gallery extends Component {
                 <div className="slide">
                     <img
                     className='gallery-img active-anim'
-                    src={this.state.gallery[this.state.slideIndex].imageUrl} />
+                    src={this.state.gallery[this.state.slideIndex].imageUrl}
+                    alt="img" />
 
                     <div className="slide-arrows">
                             <i

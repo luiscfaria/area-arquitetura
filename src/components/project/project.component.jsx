@@ -15,7 +15,7 @@ class Project extends Component {
                 <div className='box'>
                     <img
                         className='project-image'
-                        src={image}
+                        src={image} alt='project-img'
                         />
                     <div className='project-info'>
                         <h3 className='project-title'>{title}</h3>
