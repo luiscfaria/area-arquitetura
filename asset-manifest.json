@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/area-arquitetura/static/css/main.64211284.css",
-    "main.js": "/area-arquitetura/static/js/main.f34c014d.js",
+    "main.css": "/area-arquitetura/static/css/main.032cb3f4.css",
+    "main.js": "/area-arquitetura/static/js/main.66edc11e.js",
     "static/media/area gabi.jpg": "/area-arquitetura/static/media/area gabi.0b85571e1d1e8f5dcfe2.jpg",
     "static/media/area xx.jpg": "/area-arquitetura/static/media/area xx.93041dc15efca6d641ae.jpg",
     "static/media/area daniela.jpg": "/area-arquitetura/static/media/area daniela.b608fc52bf0ee64c2dd7.jpg",
     "static/media/AREA-6.png": "/area-arquitetura/static/media/AREA-6.f4f2ea25a68471c71b17.png",
     "index.html": "/area-arquitetura/index.html",
-    "main.64211284.css.map": "/area-arquitetura/static/css/main.64211284.css.map",
-    "main.f34c014d.js.map": "/area-arquitetura/static/js/main.f34c014d.js.map"
+    "main.032cb3f4.css.map": "/area-arquitetura/static/css/main.032cb3f4.css.map",
+    "main.66edc11e.js.map": "/area-arquitetura/static/js/main.66edc11e.js.map"
   },
   "entrypoints": [
-    "static/css/main.64211284.css",
-    "static/js/main.f34c014d.js"
+    "static/css/main.032cb3f4.css",
+    "static/js/main.66edc11e.js"
   ]
 }
