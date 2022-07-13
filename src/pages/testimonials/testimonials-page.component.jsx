@@ -4,9 +4,9 @@ import Header from "../../components/header/header.component";
 
 import Footer from "../../components/footer/footer.component";
 
-import './clients-page.styles.css'
+import './testimonials-page.styles.css'
 
-class ClientsPage extends Component {
+class TestimonialsPage extends Component {
 
     render() {
 
@@ -14,7 +14,7 @@ class ClientsPage extends Component {
             <div>
                 <Header/>
                 <div className="clients">
-                    <h1 className="clients-page-title">Nossos Clientes</h1>
+                    <h1 className="clients-page-title">O que dizem sobre nós</h1>
                     <img
                     className="clients-logos"
                     src="https://c-suiteresources.com/wp-content/uploads/2015/10/client-logos-1024x437.jpg"
@@ -31,4 +31,4 @@ class ClientsPage extends Component {
     }
 }
 
-export default ClientsPage;
+export default TestimonialsPage;

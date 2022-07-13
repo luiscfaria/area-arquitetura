@@ -27,7 +27,7 @@ class Header extends Component {
 
                             <div className="menu-button"> <Link to={'/servicos'} className="link"> Serviços </Link> </div>
 
-                            <div className="menu-button"> <Link to={'/clientes'} className="link"> Clientes </Link> </div>
+                            <div className="menu-button"> <Link to={'/depoimentos'} className="link"> Depoimentos </Link> </div>
 
                             <div className="menu-button"> <Link to={'/contato'} className="link"> Contato </Link> </div>                                                     
 
