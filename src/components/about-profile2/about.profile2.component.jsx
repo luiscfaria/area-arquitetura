@@ -10,7 +10,7 @@ class AboutProfile2 extends Component {
       <div className="about-profile2">
         <img
           className="profile2-img"
-          src={require("./area daniela.jpg")}
+          src={require("./Dani1.jpg")}
           alt="office"
         />
 

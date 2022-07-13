@@ -10,7 +10,7 @@ class AboutOffice extends Component {
       <div className="about-office">
         <img
           className="office-img"
-          src={require("./area xx.jpg")}
+          src={require("./area101.jpg")}
           alt="office"
         />
 
