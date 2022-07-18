@@ -3,6 +3,7 @@ import React, { Component} from "react";
 import Header from "../../components/header/header.component";
 import Gallery from "../../components/gallery-slider/gallery.component";
 import Footer from "../../components/footer/footer.component";
+import SimpleSlider from "../../components/carousel/carousel.component";
 
 
 
@@ -13,7 +14,8 @@ class HomePage extends Component {
         return (
             <div>
                 <Header/>
-                <Gallery/>
+                {/* <Gallery/> */}
+                <SimpleSlider/>
                 <Footer/>
                 
 

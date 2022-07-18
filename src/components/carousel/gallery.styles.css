@@ -1,0 +1,49 @@
+.gallery {
+    max-width: 1200px;
+}
+
+.gallery-img {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    object-fit: cover;
+    transition: opacity ease-in-out 0.4s;
+}
+
+.active-anim {
+    opacity: 1;
+}
+
+.slide {
+    margin: 20px 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.slide-arrows {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#arrow2 {
+    margin: 0 10px;
+    width: 20px;
+    height: auto;
+    color: rgb(167, 162, 162);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#arrow2:hover {
+    cursor: pointer;
+}
+
+.fa-solid {
+    aspect-ratio: 1 / 1;
+    width: 40px;
+}
