@@ -1,11 +1,36 @@
 .clients {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1500px;
+  padding-bottom: 3rem;
 }
 
 .clients-page-title {
-    font-size: 2rem;
-    font-family:'Josefin sans';
-    color: var(--primary-dark-color);
+  font-size: 2rem;
+  font-family: "Josefin sans";
+  color: var(--primary-dark-color);
+}
+
+.testimonials {
+  width: 95%;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  color: var(--primary-light-color);
+}
+
+@media (max-width: 1200px) {
+  .testimonials {
+    max-width: 800px;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 850px) {
+  .testimonials {
+    max-width: 450px;
+    grid-template-columns: 1fr;
+  }
 }
