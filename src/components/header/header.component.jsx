@@ -6,7 +6,14 @@ import './header.styles.css'
 
 class Header extends Component {
 
+    
+
     render() {
+
+        const openInstagramInNewTab = () => {
+            const newWindow = window.open("https://www.instagram.com/area_aae/", '_blank', 'noopener,noreferrer');
+            if (newWindow) newWindow.opener = null;
+          };
                 
 
         return (
@@ -31,13 +38,8 @@ class Header extends Component {
 
                             <div className="menu-button"> <Link to={'/contato'} className="link"> Contato </Link> </div>                                                     
 
-                            <div className="social-media-icons">
-                                <a
-                                className="anchor-tag"
-                                href="https://www.instagram.com/area_aae/"
-                                >
-                                    <i className="fa-brands fa-instagram"></i>                                    
-                                </a>
+                            <div className="social-media-icons">                                
+                                <i onClick={() => openInstagramInNewTab()} className="fa-brands fa-instagram"></i>
                             </div>
 
                         </div>
